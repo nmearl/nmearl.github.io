@@ -35,9 +35,6 @@ gems:
   - jekyll-seo-tag
 
 # SEO
-twitter:
-  username: nchlsearl
-
 social:
   name: Nicholas Earl
   links:
