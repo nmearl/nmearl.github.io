@@ -27,7 +27,7 @@ author:
 # Custom vars
 version: 3.4.1
 github:
-  repo: https://github.com/nmearl/autoblog
+  repo: https://github.com/nmearl/nmearl.github.io
 
 # Gems
 gems:

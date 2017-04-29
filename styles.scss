@@ -23,7 +23,7 @@
   display: flex;
 }
 
-.img-circular{
+.img-circular {
   width: 200px;
   height: 200px;
   background-image: url('https://avatars3.githubusercontent.com/u/4141126?v=3&u=58f5bc570fc816f5e17f05828531617d5e139892&s=400');
@@ -32,6 +32,13 @@
   -webkit-border-radius: 100px;
   -moz-border-radius: 100px;
   margin-top: 24px;
+}
+
+.img-small {
+  height: 24px;
+  width: 24px;
+  float: left;
+  margin: 0 10px 0 0;
 }
 
 hr {
