@@ -1,0 +1,68 @@
+==================================================================
+https://keybase.io/nmearl
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://nicholasearl.me
+  * I am nmearl (https://keybase.io/nmearl) on keybase.
+  * I have a public key with fingerprint 6502 BEC5 3F04 DC7D 122E  F9EB 78A8 C346 83E2 99CA
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "010100bfaa719541aee1da1b9724e6255c60253bdc4b5acd86b46da80fcb192803f20a",
+            "fingerprint": "6502bec53f04dc7d122ef9eb78a8c34683e299ca",
+            "host": "keybase.io",
+            "key_id": "78a8c34683e299ca",
+            "kid": "010100bfaa719541aee1da1b9724e6255c60253bdc4b5acd86b46da80fcb192803f20a",
+            "uid": "58d37bb9c78294d9e02888165cc6d619",
+            "username": "nmearl"
+        },
+        "service": {
+            "hostname": "nicholasearl.me",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1493481212,
+    "expire_in": 157680000,
+    "prev": "73b3218fb1a8804b95c53a75e0b599df7db5d258bc98a661b415f4b616d1d2b4",
+    "seqno": 5,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.68
+Comment: https://keybase.io/crypto
+
+yMIpAnicrVJJaBRBFJ3oxCW4xpPLQQsVxFG7qru6q8YFFBcQNAouuI5VXdVJO2P3
+ZLoTlyiIgooSFLfIaC56iB5ElOCGxMQFl+CCuBwMqKhzMK5xQXCtDnrzaNWhqP/f
+e/X+r3+ld9dYSVFrv5nLD+6evrGotaWuKrYofvp7DeC+WAuSNSAtOw+ZETIIU2lX
+gCTQoNoadxizIMUGZFJCwSCnFjKkiTC2TQ1hnQvb4JjZgpjcMAUjmmNzSBHRdAdp
+DCSA43rlMpfNuV6oZE2sIS5trDuaIWxLQISkQyW3CCO2bphEl4hSOyJW+EHEUOY4
+C+RY11cxdUl12vsH/j/7ruqUw0ToFufUtgiihqBSQ4QQaGLbNoUJaQQMZM5jq6RC
+e6sky2XAhgRQsWrXllFbozr+5l27ws+oahRqrIokQDbnh77tZ1SyIgyzyYgbrs1G
+4NWSp/7IpLjrCdVHRaiWucD1PZCECmmHbqQLDaobBCKIEkCuybo5mXIjBLZMoqkV
+PSOro67pXEeQOBwyQjSDU6x+gllYahxTKhxLcCwQJtymhJkm5AbEjsFNaAooEDdA
+VFil54MkVjZZuZIM3HKPhVU5CTZcal4ajxWVxLoVd4nmK1bSs9/fqRuY7v5z2Iiy
+/JZ1LyrnLy48W3joyBDOav3S0nGPlz0rrWlaulUU78l3PaaNDuM7UTA5WBBMCle4
+L5v3FXZ8+nrt8bspv3bHGyUobFsSb3y4dfPQUS1fJ4++0fCZ398xvW//IW1N17/3
+uNN+4cnT122Xjp7vs7FoXvud/PHhJZ/GXH9QSU+ubC8ef+JqY35i5lFT6zQ6a8Ll
+jrP1V4qfnPF65cu+7Do8dNzrDw9qZ9w7PnVu2d5N/SfMWAbaZnd8a+lhFN5uOTfg
+1b33p+YMvlheP2mzmVhZt97rc7pi+PPak+Pr9I67fX+S/YkPg2YWGm6/6XUq/WXk
+TXS4Zn/hR+FNw/r69K3mA9s/br82wvkNY9FISw==
+=p1Kr
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/nmearl
+
+==================================================================

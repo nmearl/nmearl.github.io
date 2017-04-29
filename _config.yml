@@ -5,8 +5,9 @@ permalink:      /blog/:year-:month-:day/:title
 title:          Nicholas Earl
 paginate:       5
 baseurl:        ""
-url:            "http://nmearl.github.io"
+url:            "http://nicholasearl.me"
 paginate_path:  "/blog/page:num/"
+description:    "Astrophysicist, software engineer, game designer working for NASA at the Space Telescope Science Institute."
 
 # Assets
 sass:
@@ -31,3 +32,16 @@ github:
 # Gems
 gems:
   - jekyll-paginate
+  - jekyll-seo-tag
+
+# SEO
+twitter:
+  username: nchlsearl
+
+social:
+  name: Ben Balter
+  links:
+    - https://twitter.com/nchlsearl
+    - https://www.linkedin.com/in/nicholas-earl-952b8088
+    - https://github.com/nmearl
+    - https://keybase.io/nmearl

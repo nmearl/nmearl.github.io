@@ -12,6 +12,10 @@
 @import 'pagination';
 @import 'catalogue';
 
+.nav-container {
+  height: 24px;
+}
+
 .box {
   flex-wrap: wrap; /* optional. only if you want the items to wrap */
   justify-content: space-around; /* for horizontal alignment */
