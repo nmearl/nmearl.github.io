@@ -14,9 +14,10 @@
           <a href="{{ site.baseurl }}/">
         {% endif %}
         <ul>
-          <li><a href="{{ '/projects' | prepend: site.url }}">Projects</a></li>
+          <!--<li><a href="{{ '/projects' | prepend: site.url }}">Projects</a></li>-->
           <li><a href="{{ '/cv' | prepend: site.url }}">CV</a></li>
-          <li><a href="{{ '/blog' | prepend: site.url }}">Blog</a></li>
+          <li><a href="{{ '/contact' | prepend: site.url }}">Contact</a></li>
+          <!--<li><a href="{{ '/blog' | prepend: site.url }}">Blog</a></li>-->
         </ul>
     </div>
   </nav>
@@ -27,12 +28,12 @@
 
     <footer>
       <h1>
-        <a href="http://github.com/nmearl"><i class="fa fa-github-alt" aria-hidden="true" style="margin-right: 12px;"></i></a>
+        <a href="https://github.com/nmearl"><i class="fa fa-github-alt" aria-hidden="true" style="margin-right: 12px;"></i></a>
         <a href="https://twitter.com/nchlsearl"><i class="fa fa-twitter" aria-hidden="true"></i></a>
         <a href="https://www.linkedin.com/in/nicholas-earl-952b8088/"><i class="fa fa-linkedin" aria-hidden="true" style="margin-left: 12px;"></i></a>
       </h1>
       <span>
-        &copy; <time datetime="{{ site.time }}">{{ site.time | date: '%Y' }}</time> {{ site.author.name }}. Made with Jekyll using the <a href="https://github.com/chesterhow/tale/">Tale</a> theme.
+        &copy; <time datetime="{{ site.time }}">{{ site.time | date: '%Y' }}</time> {{ site.author.name }}. Made with Jekyll.
       </span>
     </footer>
   </body>

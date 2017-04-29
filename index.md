@@ -4,7 +4,7 @@ title: "Home"
 permalink: /
 ---
 
-## Hello.
+# Hello.
 
 My name is Nicholas Earl. I'm an astrophysicist currently working as a research and instrument analyst at the Space Telescope Science Institute. I earned my M.S. in astronomy from San Diego State University doing research on n-body systems using data from the Kepler space telescope.
 
