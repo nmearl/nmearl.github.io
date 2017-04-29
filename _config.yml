@@ -1,33 +1,33 @@
 # Permalinks
-permalink:      /blog/:year-:month-:day/:title
+permalink: /blog/:year-:month-:day/:title
 
 # Setup
-title:          Nicholas Earl
-paginate:       5
-baseurl:        ""
-url:            "http://nicholasearl.me"
-paginate_path:  "/blog/page:num/"
-description:    "Astrophysicist, software engineer, game designer working for NASA at the Space Telescope Science Institute."
+title: Nicholas Earl
+paginate: 5
+baseurl: ""
+url: "http://nicholasearl.me"
+paginate_path: "/blog/page:num/"
+description: "Astrophysicist, software engineer, game designer working for NASA at the Space Telescope Science Institute."
 
 # Assets
 sass:
-  sass_dir:     _sass
-  style:        :compressed
+  sass_dir: _sass
+  style: :compressed
 
 # Build settings
-markdown:       kramdown
+markdown: kramdown
 
 # About
 author:
-  name:         Nicholas Earl
-  url:          http://nicholasearl.me
-  email:        contact@nicholasearl.me
-  description:  Astrophysicist, software engineer, video game designer
+  name: Nicholas Earl
+  url: http://nicholasearl.me
+  email: contact@nicholasearl.me
+  description: Astrophysicist, software engineer, video game designer
 
 # Custom vars
-version:        3.4.1
+version: 3.4.1
 github:
-  repo:         https://github.com/nmearl/autoblog
+  repo: https://github.com/nmearl/autoblog
 
 # Gems
 gems:
