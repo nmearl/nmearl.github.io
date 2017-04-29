@@ -1,1 +1,33 @@
-theme: jekyll-theme-minimal
+# Permalinks
+permalink:      /blog/:year-:month-:day/:title
+
+# Setup
+title:          Nicholas Earl
+paginate:       5
+baseurl:        ""
+url:            "http://nmearl.github.io"
+paginate_path:  "/blog/page:num/"
+
+# Assets
+sass:
+  sass_dir:     _sass
+  style:        :compressed
+
+# Build settings
+markdown:       kramdown
+
+# About
+author:
+  name:         Nicholas Earl
+  url:          http://nicholasearl.me
+  email:        contact@nicholasearl.me
+  description:  Astrophysicist, software engineer, video game designer
+
+# Custom vars
+version:        3.4.1
+github:
+  repo:         https://github.com/nmearl/autoblog
+
+# Gems
+gems:
+  - jekyll-paginate
