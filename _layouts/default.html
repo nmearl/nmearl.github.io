@@ -7,11 +7,10 @@
     <nav class="nav">
       <div class="nav-container">
         {% if page.title == "Home" %}
-          <h3 class="nav-title"></h3>
         {% else %}
           <a href="{{ site.baseurl }}/">
-            <div class="img-circular img-small"></div>
-            <h3 class="nav-title">{{ site.title }}</h3>
+            <h3 class="nav-title">
+            <div class="img-circular img-small"></div>{{ site.title }}</h3>
           </a>
         {% endif %}
         <ul>
