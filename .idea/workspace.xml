@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c1a85df8-8b6a-47fd-867e-8019f06a8ef4" name="Changes" comment="Move pages site to hugo">
+      <change afterPath="$PROJECT_DIR$/assets/img/prof_pic.JPG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_bibliography/papers.bib" beforeDir="false" afterPath="$PROJECT_DIR$/_bibliography/papers.bib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_data/repositories.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_data/repositories.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_pages/about.md" beforeDir="false" afterPath="$PROJECT_DIR$/_pages/about.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_pages/about_einstein.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_pages/blog.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_pages/dropdown.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_pages/news.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_pages/profiles.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_pages/teaching.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/prof_pic.jpg" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 0
+}]]></component>
+  <component name="ProjectId" id="2dOEfSVrBp4ssDi7RXA8O9fRsxo" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/Users/nmearl/projects/nmearl.github.io/static",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/static" />
+      <recent name="$PROJECT_DIR$/content" />
+      <recent name="$PROJECT_DIR$/static/images" />
+      <recent name="$PROJECT_DIR$/themes/devise/exampleSite/static/images" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/static" />
+      <recent name="$PROJECT_DIR$/assets/img" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c1a85df8-8b6a-47fd-867e-8019f06a8ef4" name="Changes" comment="" />
+      <created>1709870828773</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1709870828773</updated>
+      <workItem from="1709870829995" duration="18756000" />
+    </task>
+    <task id="LOCAL-00001" summary="Update basic config options">
+      <option name="closed" value="true" />
+      <created>1709916203276</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1709916203276</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Change deploy from branch">
+      <option name="closed" value="true" />
+      <created>1709916514798</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1709916514798</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Update config options">
+      <option name="closed" value="true" />
+      <created>1709916591940</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1709916591940</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Use slash in base url">
+      <option name="closed" value="true" />
+      <created>1709916726124</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1709916726124</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Update basic config options" />
+    <MESSAGE value="Change deploy from branch" />
+    <MESSAGE value="Update config options" />
+    <MESSAGE value="Use slash in base url" />
+    <MESSAGE value="Move pages site to hugo" />
+    <option name="LAST_COMMIT_MESSAGE" value="Move pages site to hugo" />
+  </component>
+</project>
