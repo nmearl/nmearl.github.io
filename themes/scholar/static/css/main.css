@@ -443,7 +443,7 @@ main { min-height: calc(100vh - 120px); }
   line-height: 1.7;
 }
 
-.page-content { padding-bottom: 4rem; }
+.page-content { padding-bottom: 0; }
 
 /* ── Single post ──────────────────────────────────── */
 .post-header {
