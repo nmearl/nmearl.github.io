@@ -1,0 +1,76 @@
+topics:
+  - tag: "time-domain"
+    image: "/img/research/tdes-research.png"
+    title: "Tidal Disruption Events"
+    description: >
+      TDEs provide a rare opportunity to observe black hole accretion turn on in an otherwise quiescent galaxy. My 
+      work focuses on multi-wavelength observations of individual events, connecting their photometric and 
+      spectroscopic evolution to accretion disk geometry and black hole properties.
+    publications:
+      - title: "AT 2020nov: Evidence for Disk Reprocessing in a Rare Tidal Disruption Event"
+        ref: "ApJ 983, 28 (2025)"
+        url: "https://ui.adsabs.harvard.edu/abs/2025ApJ...983...28E"
+      - title: "FEADME: A GPU-Accelerated Bayesian Modeling Engine for Relativistic Elliptical Accretion Disk Profiles"
+        ref: "arXiv:2512.10228 (2025)"
+        url: "https://arxiv.org/abs/2512.10228"
+      - title: "JWST and Keck Observations of the Off-Nuclear TDE AT 2024tvd"
+        ref: "arXiv:2510.12572 (2025)"
+        url: "https://arxiv.org/abs/2510.12572"
+
+  - tag: "nuclear variability"
+    image: "/img/research/nuclear_variability-research.png"
+    title: "Nuclear Variability & AGN"
+    description: >
+      Distinguishing TDEs from AGN in photometric surveys is genuinely difficult, and misclassification affects the 
+      science of both populations. My work connects nuclear transient behavior to host-galaxy properties, with 
+      particular attention to post-starburst galaxies, and develops classifiers for separating the two populations 
+      in survey data.
+    publications:
+      - title: "Fading AGNs in Poststarburst Galaxies"
+        ref: "ApJ 950, 153 (2023)"
+        url: "https://ui.adsabs.harvard.edu/abs/2023ApJ...950..153F"
+      - title: "Radio Variability in Recently Quenched Galaxies: The Impact of TDE or AGN-Driven Outflows"
+        ref: "ApJ 992, 123 (2025)"
+        url: "https://ui.adsabs.harvard.edu/abs/2025ApJ...992..123F"
+      - title: "A Large-scale Search for Photometrically Variable AGN in Dwarf Galaxies Using YSE"
+        ref: "ApJ 985, 223 (2025)"
+        url: "https://ui.adsabs.harvard.edu/abs/2025ApJ...985..223M"
+
+  - tag: "bayesian inference"
+    image: "/img/research/prob_modeling-research.png"
+    title: "Probabilistic Modeling"
+    description: >
+      Fitting physically motivated spectral models to TDE and AGN data requires robust Bayesian inference with 
+      well-characterized uncertainties. My work in this area centers on FEADME, a JAX/NumPyro framework for fitting 
+      relativistic accretion disk profiles to double-peaked emission lines on GPU hardware.
+    publications:
+      - title: "FEADME: A GPU-Accelerated Bayesian Modeling Engine for Relativistic Elliptical Accretion Disk Profiles"
+        ref: "arXiv:2512.10228 (2025)"
+        url: "https://arxiv.org/abs/2512.10228"
+
+  - tag: "machine learning"
+    image: "/img/research/ml-research.png"
+    title: "ML for Transient Classification"
+    description: >
+      Rubin/LSST will produce far more nuclear transient alerts than can be
+      followed up spectroscopically, requiring classification from photometric
+      light curves alone. My work develops neural process and transformer-based
+      models for early-time classification on irregularly sampled, multi-band
+      data, with a particular focus on TDE identification.
+
+  - tag: "CGM"
+    image: "/img/research/cgm-research.png"
+    title: "Circumgalactic Medium"
+    description: >
+      Before my PhD, I worked on the circumgalactic medium (the diffuse gas
+      surrounding galaxies) using UV absorption spectroscopy. I developed
+      Spectacle, a line-analysis package for absorption spectra, and used it
+      to study how simulation resolution affects CGM kinematics, comparing
+      simulated absorbers directly to HST/COS observations.
+    publications:
+      - title: "Figuring Out Gas & Galaxies in Enzo (FOGGIE). I."
+        ref: "ApJ 873, 129 (2019)"
+        url: "https://ui.adsabs.harvard.edu/abs/2019ApJ...873..129P"
+      - title: "Diagnosing the Multiphase CGM"
+        ref: "HST Program AR-14560 (PI)"
+        url: "https://www.stsci.edu/cgi-bin/get-proposal-info?id=14560&observatory=HST"
