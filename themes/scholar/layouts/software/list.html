@@ -1,0 +1,39 @@
+{{ define "main" }}
+<div class="container">
+  <div class="page-header">
+    <p class="section-label">open source</p>
+    <h1>{{ .Title }}</h1>
+    {{ with .Description }}<p class="page-desc">{{ . }}</p>{{ end }}
+  </div>
+
+  <div class="page-content">
+    <ul class="software-list">
+      {{ range hugo.Data.software.projects }}
+      <li class="software-entry">
+
+        <div class="software-entry-meta">
+          <p class="software-entry-role">{{ .role }}</p>
+          <h2 class="software-entry-name">
+            {{ if .url }}<a href="{{ .url }}" target="_blank" rel="noopener noreferrer">{{ .name }}</a>{{ else }}{{ .name }}{{ end }}
+          </h2>
+          {{ with .full_name }}<p class="software-entry-fullname">{{ . }}</p>{{ end }}
+        </div>
+
+        <div>
+          <p class="software-entry-desc">{{ .description }}</p>
+          {{ with .links }}
+          <div class="software-entry-links">
+            {{ range . }}
+            <a href="{{ .url }}" class="software-link{{ if eq .label "github" }} primary{{ end }}"
+               target="_blank" rel="noopener noreferrer">{{ .label }} ↗</a>
+            {{ end }}
+          </div>
+          {{ end }}
+        </div>
+
+      </li>
+      {{ end }}
+    </ul>
+  </div>
+</div>
+{{ end }}

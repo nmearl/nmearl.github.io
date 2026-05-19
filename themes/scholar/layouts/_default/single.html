@@ -1,0 +1,12 @@
+{{ define "main" }}
+<div class="container">
+  <div class="post-header">
+    <p class="section-label">{{ .Section }}</p>
+    <h1>{{ .Title }}</h1>
+    <p class="post-meta">{{ .Date.Format "January 2, 2006" }}{{ with .Params.tags }} · {{ range . }}<span>{{ . }}</span> {{ end }}{{ end }}</p>
+  </div>
+  <div class="post-body">
+    {{ .Content }}
+  </div>
+</div>
+{{ end }}

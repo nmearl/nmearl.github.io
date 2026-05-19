@@ -1,0 +1,29 @@
+<header class="site-header">
+  <div class="container">
+    <a href="{{ "/" | relURL }}" class="site-name">{{ .Site.Title }}</a>
+    <nav aria-label="Main navigation">
+      <ul class="site-nav">
+        <li><a href="{{ "/#research" | relURL }}">research</a></li>
+        <li><a href="{{ "/#software" | relURL }}">software</a></li>
+        <li><a href="{{ .Site.Params.ads_url }}" target="_blank" rel="noopener noreferrer" class="ext">publications</a></li>
+        <li><a href="{{ .Site.Params.cv_pdf | relURL }}" target="_blank" class="ext">cv</a></li>
+        <li class="nav-icon-sep"></li>
+        <li>
+          <a href="mailto:{{ .Site.Params.email }}" class="nav-icon-btn" aria-label="Email">
+            <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <rect x="2" y="5" width="16" height="11" rx="1.5"/>
+              <polyline points="2,5 10,12 18,5"/>
+            </svg>
+          </a>
+        </li>
+        <li>
+          <a href="https://github.com/{{ .Site.Params.github }}" class="nav-icon-btn" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+            <svg viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M10 1.5a8.5 8.5 0 0 0-2.687 16.573c.425.078.58-.184.58-.41 0-.202-.007-.737-.011-1.447-2.364.514-2.863-1.139-2.863-1.139-.387-.982-.944-1.244-.944-1.244-.772-.527.058-.516.058-.516.853.06 1.302.876 1.302.876.758 1.299 1.99.924 2.474.707.077-.55.297-.924.54-1.137-1.888-.215-3.873-.944-3.873-4.207 0-.929.332-1.688.876-2.284-.088-.215-.38-1.08.083-2.252 0 0 .714-.229 2.34.872A8.155 8.155 0 0 1 10 7.03c.723.003 1.451.098 2.13.287 1.624-1.101 2.337-.872 2.337-.872.464 1.172.172 2.037.085 2.252.545.596.875 1.355.875 2.284 0 3.271-1.988 3.99-3.882 4.2.305.263.577.78.577 1.573 0 1.135-.01 2.051-.01 2.33 0 .228.153.492.584.409A8.501 8.501 0 0 0 10 1.5Z"/>
+            </svg>
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</header>

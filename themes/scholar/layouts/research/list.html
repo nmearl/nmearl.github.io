@@ -1,0 +1,59 @@
+{{ define "main" }}
+<div class="container">
+  <div class="page-header">
+    <p class="section-label">about my work</p>
+    <h1>{{ .Title }}</h1>
+    {{ with .Description }}<p class="page-desc">{{ . }}</p>{{ end }}
+  </div>
+
+  <div class="page-content">
+    {{ range hugo.Data.research.topics }}
+    <article class="research-entry">
+
+      <div class="research-entry-header">
+        <span class="card-tag">{{ .tag }}</span>
+        <h2>{{ .title }}</h2>
+      </div>
+
+      <div class="research-entry-body{{ if not .image }} no-image{{ end }}">
+
+        <div>
+          <p class="research-entry-desc">{{ .description }}</p>
+
+          {{ with .publications }}
+          <div class="research-pubs">
+            <p class="research-pubs-label">Selected publications</p>
+            <ul>
+              {{ range . }}
+              <li>
+                {{ if .url }}
+                  <a href="{{ .url }}" target="_blank" rel="noopener noreferrer">{{ .title }}</a>
+                {{ else }}
+                  {{ .title }}
+                {{ end }}
+                {{ with .ref }}<span class="research-pub-ref">{{ . }}</span>{{ end }}
+              </li>
+              {{ end }}
+            </ul>
+          </div>
+          {{ end }}
+        </div>
+
+        {{ $topicTitle := .title }}
+      {{ with .image }}
+        <div class="research-entry-img-wrap">
+          <img src="{{ . }}" alt="{{ $topicTitle }}" class="research-entry-img">
+        </div>
+        {{ else }}
+        {{/* placeholder — remove this block and add image: path/to/img.jpg to the YAML entry */}}
+        <div class="research-entry-img-wrap">
+          <div class="research-img-placeholder">add image:<br>research.yaml → image field</div>
+        </div>
+        {{ end }}
+
+      </div>
+    </article>
+    {{ end }}
+  </div>
+</div>
+{{ end }}

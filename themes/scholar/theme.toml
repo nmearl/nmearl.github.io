@@ -1,0 +1,8 @@
+name = "Scholar"
+license = "MIT"
+description = "Minimalist academic theme with a coding-environment aesthetic"
+homepage = "https://nicholasearl.me"
+min_version = "0.110.0"
+
+[author]
+  name = "Nicholas Earl"

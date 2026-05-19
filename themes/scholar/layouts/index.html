@@ -1,0 +1,131 @@
+{{ define "main" }}
+
+{{/* ── Hero ─────────────────────────────────────── */}}
+<section class="hero">
+  <div class="container">
+    <div class="hero-inner">
+
+      <div class="hero-text">
+        <p class="hero-eyebrow">astrophysicist · software engineer</p>
+        <h1 class="hero-name">Nicholas Earl</h1>
+        <p class="hero-title">Ph.D. Candidate · University of Illinois at Urbana-Champaign</p>
+        <p class="hero-bio">
+          I'm a PhD candidate at the University of Illinois working with K. Decker French
+          on tidal disruption events and nuclear variability, using probabilistic modeling
+          and machine learning to study black hole growth in photometric survey data.
+          Alongside my research, I build open-source tools and platforms for the astronomy
+          community as a software engineer at the Harvard CfA.
+          In my free time, I enjoy good craft beer and moonlighting as a game developer.
+        </p>
+        <p class="hero-collab-label">collaborations</p>
+        <div class="hero-links">
+          {{ range hugo.Data.collaborations.items }}
+          <a href="{{ .url }}" class="hero-link hero-link-ext" target="_blank" rel="noopener noreferrer" title="{{ .full_name }}">{{ .name }}</a>
+          {{ end }}
+        </div>
+      </div>
+
+      <div class="hero-photo-wrap">
+        {{ if .Site.Params.photo }}
+          <img src="{{ .Site.Params.photo | relURL }}" alt="Photo of Nicholas Earl" class="hero-photo">
+        {{ else }}
+          <div class="hero-photo-placeholder">add photo to<br>static/img/</div>
+        {{ end }}
+      </div>
+
+    </div>
+  </div>
+</section>
+
+{{/* ── Research ───────────────────────────────────── */}}
+<section class="section" id="research">
+  <div class="container">
+    <p class="section-label">about my work</p>
+    <h2 class="section-title">Research</h2>
+    <p class="section-subtitle">
+      Observational and computational work on nuclear transients, black hole physics, and galaxy evolution.
+    </p>
+
+    <div class="page-content">
+      {{ range hugo.Data.research.topics }}
+      <article class="research-entry">
+
+        <div class="research-entry-header">
+          <span class="card-tag">{{ .tag }}</span>
+          <h2>{{ .title }}</h2>
+        </div>
+
+        <div class="research-entry-body{{ if not .image }} no-image{{ end }}">
+          <div>
+            <p class="research-entry-desc">{{ .description }}</p>
+            {{ with .publications }}
+            <div class="research-pubs">
+              <p class="research-pubs-label">Selected publications</p>
+              <ul>
+                {{ range . }}
+                <li>
+                  {{ if .url }}
+                    <a href="{{ .url }}" target="_blank" rel="noopener noreferrer">{{ .title }}</a>
+                  {{ else }}
+                    {{ .title }}
+                  {{ end }}
+                  {{ with .ref }}<span class="research-pub-ref">{{ . }}</span>{{ end }}
+                </li>
+                {{ end }}
+              </ul>
+            </div>
+            {{ end }}
+          </div>
+
+          {{ $topicTitle := .title }}
+          {{ with .image }}
+          <div class="research-entry-img-wrap">
+            <img src="{{ . }}" alt="{{ $topicTitle }}" class="research-entry-img">
+          </div>
+          {{ end }}
+        </div>
+
+      </article>
+      {{ end }}
+    </div>
+  </div>
+</section>
+
+{{/* ── Software ───────────────────────────────────── */}}
+<section class="section" id="software">
+  <div class="container">
+    <p class="section-label">open source</p>
+    <h2 class="section-title">Software</h2>
+    <p class="section-subtitle">
+      Open-source scientific software developed for the astronomy community.
+    </p>
+
+    <div class="page-content">
+      <ul class="software-list">
+        {{ range hugo.Data.software.projects }}
+        <li class="software-entry">
+          <div class="software-entry-meta">
+            <p class="software-entry-role">{{ .role }}</p>
+            <h2 class="software-entry-name">{{ .name }}</h2>
+            {{ with .full_name }}<p class="software-entry-fullname">{{ . }}</p>{{ end }}
+          </div>
+          <div>
+            <p class="software-entry-desc">{{ .description }}</p>
+            {{ with .links }}
+            <div class="software-entry-links">
+              {{ range . }}
+              <a href="{{ .url }}" class="software-link{{ if eq .label "github" }} primary{{ end }}"
+                 target="_blank" rel="noopener noreferrer">{{ .label }} ↗</a>
+              {{ end }}
+            </div>
+            {{ end }}
+          </div>
+        </li>
+        {{ end }}
+      </ul>
+    </div>
+    <p class="section-more"><a href="https://github.com/{{ .Site.Params.github }}" target="_blank" rel="noopener noreferrer">All projects on GitHub ↗</a></p>
+  </div>
+</section>
+
+{{ end }}

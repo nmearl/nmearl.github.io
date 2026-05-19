@@ -1,0 +1,28 @@
+baseURL = 'https://nicholasearl.me/'
+locale = 'en-us'
+title = 'Nicholas Earl'
+theme = 'scholar'
+
+[params]
+  author      = "Nicholas Earl"
+  description = "Astrophysicist and research software engineer specializing in time-domain astronomy, probabilistic modeling, and scalable scientific software."
+  email       = "nmearl2@illinois.edu"
+  github      = "nmearl"
+  ads_url     = "https://ui.adsabs.harvard.edu/search/q=author%3A%22Earl%2C+Nicholas%22&sort=date+desc"
+  cv_pdf      = "/files/cv.pdf"
+  photo       = "/img/prof_pic.png"
+
+ignoreFiles = ["\\.ipynb$", "\\.qmd$"]
+
+[markup.goldmark.renderer]
+  unsafe = true
+
+[markup.goldmark.extensions.passthrough]
+  enable = true
+  [markup.goldmark.extensions.passthrough.delimiters]
+    block  = [['$$', '$$'], ['\[', '\]']]
+    inline = [['$', '$'],   ['\(', '\)']]
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'

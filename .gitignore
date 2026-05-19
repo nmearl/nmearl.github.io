@@ -1,0 +1,14 @@
+/.quarto/
+**/*.quarto_ipynb
+**/.DS_Store
+
+# Local editor/project state
+.idea/
+
+# Hugo build/cache output
+.hugo_build.lock
+public/
+resources/
+
+# Keep local blog drafts and rendered notebook assets out of the published repo.
+content/blog/

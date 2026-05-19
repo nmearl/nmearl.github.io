@@ -1,0 +1,25 @@
+{{ define "main" }}
+<div class="container">
+  <div class="page-header">
+    <p class="section-label">{{ .Section | default .Title | lower }}</p>
+    <h1>{{ .Title }}</h1>
+    {{ with .Description }}<p class="page-desc">{{ . }}</p>{{ end }}
+    {{ with .Content }}<div class="page-desc" style="margin-top:0.75rem">{{ . }}</div>{{ end }}
+  </div>
+
+  <div class="page-content">
+    {{ if .Pages }}
+      <ul class="post-list">
+        {{ range .Pages }}
+        <li class="post-item">
+          <span class="post-date">{{ .Date.Format "2006-01-02" }}</span>
+          <span class="post-title"><a href="{{ .Permalink }}">{{ .Title }}</a></span>
+        </li>
+        {{ end }}
+      </ul>
+    {{ else }}
+      <p style="color:var(--text-muted);font-family:var(--mono);font-size:0.875rem">No posts yet.</p>
+    {{ end }}
+  </div>
+</div>
+{{ end }}

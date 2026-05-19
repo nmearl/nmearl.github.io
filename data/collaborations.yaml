@@ -1,0 +1,10 @@
+items:
+  - name: "YSE"
+    full_name: "Young Supernova Experiment"
+    url: "https://yse.ucsc.edu"
+  - name: "EDGE-CALIFA"
+    full_name: "EDGE-CALIFA Survey"
+    url: "https://www.astro.umd.edu/EDGE/"
+  - name: "LSST-TVSSC"
+    full_name: "LSST Transients & Variable Stars Science Collaboration"
+    url: "https://lsst-tvssc.github.io/"
